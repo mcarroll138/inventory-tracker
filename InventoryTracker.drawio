@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T16:14:37.761Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UB0cFmU4VRTDFTyRQf-Q" version="21.7.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-09-08T19:23:28.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m5YGWKc5UVaUt7g9IqEl" version="21.7.1" type="device">
   <diagram name="Page-1" id="sNt43C2CeURIw9OieRAq">
-    <mxGraphModel dx="1024" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,26 +22,40 @@
         <mxCell id="Sj3wQn-dgsAGX83FZfN--5" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--6" value="Add Coffee Type&lt;br&gt;A form that will intake:&lt;br&gt;name, origin, price, roast, qty lbs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--6" value="Add Coffee&lt;br&gt;Clicking this button will show the NewCoffeeForm." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="380" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--7" value="Sale Button&lt;br&gt;(reduces total supply by 1lb)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--8" value="Restock Button&lt;br&gt;(adds 130lbs to supply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--8" target="Sj3wQn-dgsAGX83FZfN--3">
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--8" target="Sj3wQn-dgsAGX83FZfN--3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="410" as="sourcePoint" />
             <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="470" />
+              <mxPoint x="380" y="470" />
+              <mxPoint x="380" y="170" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--7" target="Sj3wQn-dgsAGX83FZfN--3">
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="210" as="sourcePoint" />
-            <mxPoint x="360" y="180" as="targetPoint" />
+            <mxPoint x="300" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="470" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--15" value="NewCoffeeForm&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="330" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--16" value="Submit&lt;br&gt;Clicking button will add a new coffee to the list with the default value of 130lbs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
