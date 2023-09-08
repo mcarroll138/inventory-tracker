@@ -27,6 +27,7 @@ const mainCoffeeList = [
 function CoffeeList(){
     return (
         <React.Fragment>
+            <h2>Current Offerings:</h2>
             <hr/>
             {mainCoffeeList.map((coffee, index) =>
             <Coffee coffeeName={coffee.coffeeName}

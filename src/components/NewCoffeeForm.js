@@ -1,9 +1,23 @@
 import React from "react";
 
-function NewCoffeeForm(props){
+function NewCoffeeForm(){
+    function handleNewCoffeeFormSubmission(event) {
+        event.preventDefault();
+        console.log(event.target.coffeeName.value);
+    }
     return (
         <React.Fragment>
-            <h3>This is the coffee form</h3>
+            <form onSubmit={handleNewCoffeeFormSubmission}>
+                <input
+                type="text"
+                name="coffeeName"
+                placeholder="Coffee Name"/>
+                <input
+                type="text"
+                name="coffeeRoast"
+                placeholder="Roast Level"/>
+                <button type="submit">Add Coffee</button>
+                 </form>
         </React.Fragment>
     );
 }
