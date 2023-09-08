@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { v4 } from 'uuid';
+import ReusableForm from "./ReusableForm";
 
 function NewCoffeeForm(props){
     function handleNewCoffeeFormSubmission(event) {
@@ -19,42 +20,10 @@ function NewCoffeeForm(props){
     }
     return (
         <React.Fragment>
-            <form onSubmit={handleNewCoffeeFormSubmission}>
-                <input
-                type="text"
-                name="coffeeName"
-                placeholder="Coffee Name"/>
-                <input
-                type="text"
-                name="coffeeRoast"
-                placeholder="Roast Level"/>
-                <input
-                type="text"
-                name="coffeeFlavor"
-                placeholder="Tasting Notes"/>
-                <input
-                type="text"
-                name="coffeeFarm"
-                placeholder="Farm"/>
-                <input
-                type="text"
-                name="coffeeOrigin"
-                placeholder="Origin"/>
-                <input
-                type="text"
-                name="coffeeMethod"
-                placeholder="Method"/>
-                <input
-                type="text"
-                name="coffeePrice"
-                placeholder="Price per pound"/>
-                <input
-                type="text"
-                name="qty"
-                placeholder="Quantity"/>
-                <button type="submit">Add Coffee</button>
-                 </form>
-        </React.Fragment>
+            <ReusableForm
+            formSubmissionHandler={handleNewCoffeeFormSubmission}
+            buttonText="Add New Coffee" />
+            </React.Fragment>
     );
 }
 
