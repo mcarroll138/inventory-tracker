@@ -1,29 +1,33 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function Coffee(){
-    const coffeeName = "Colombia Viviana Realpe";
-    const coffeeRoast = "light";
-    const coffeeFlavor = "Peach, Grapefruit, Rose";
-    const coffeeFarm = "Los Nogales";
-    const coffeeOrigin = "Colombia";
-    const coffeeMethod = "Fully Washed & Dried on Raised Beds";
-    const coffeePrice = "$16.00";
-    const qty = 130;
-    return (
+function Coffee(props){
+     return (
         <React.Fragment>
             <h3>Availible Beans:</h3>
             <hr/>
-            <h3>Name: {coffeeName}</h3>
-            <h3>Roast Level: {coffeeRoast}</h3>
-            <h3>Flavor Notes: {coffeeFlavor}</h3>
-            <h3>Farm: {coffeeFarm}</h3>
-            <h3>Origin: {coffeeOrigin}</h3>
-            <h3>Processing Method: {coffeeMethod}</h3>
-            <h3>Price: {coffeePrice}</h3>
-            <h3>Quantity: {qty}</h3>
+            <h3>Name: {props.coffeeName}</h3>
+            <h3>Roast Level: {props.coffeeRoast}</h3>
+            <h3>Flavor Notes: {props.coffeeFlavor}</h3>
+            <h3>Farm: {props.coffeeFarm}</h3>
+            <h3>Origin: {props.coffeeOrigin}</h3>
+            <h3>Processing Method: {props.coffeeMethod}</h3>
+            <h3>Price: {props.coffeePrice}</h3>
+            <h3>Quantity: {props.qty} lbs</h3>
             <hr/>
         </React.Fragment>
     );
+}
+
+Coffee.propTypes = {
+    coffeeName: PropTypes.string.isRequired,
+    coffeeRoast: PropTypes.string.isRequired,
+    coffeeFlavor: PropTypes.string.isRequired,
+    coffeeFarm: PropTypes.string.isRequired,
+    coffeeOrigin: PropTypes.string.isRequired,
+    coffeeMethod: PropTypes.string.isRequired,
+    coffeePrice: PropTypes.number.isRequired,
+    qty: PropTypes.number.isRequired
 }
 
 export default Coffee;
