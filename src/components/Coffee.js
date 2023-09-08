@@ -24,8 +24,8 @@ Coffee.propTypes = {
     coffeeFarm: PropTypes.string.isRequired,
     coffeeOrigin: PropTypes.string.isRequired,
     coffeeMethod: PropTypes.string.isRequired,
-    coffeePrice: PropTypes.number.isRequired,
-    qty: PropTypes.number.isRequired
+    coffeePrice: PropTypes.string.isRequired,
+    qty: PropTypes.string.isRequired
 }
 
 export default Coffee;
