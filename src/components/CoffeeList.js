@@ -11,7 +11,7 @@ const mainCoffeeList = [
         coffeeMethod: "Fully Washed & Dried on Raised Beds",
         coffeePrice: "$16.00",
         qty: 130
-    },
+        },
     {
         coffeeName :"Colombia",
         coffeeRoast: "medium",
