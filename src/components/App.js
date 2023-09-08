@@ -8,6 +8,8 @@ function App(){
     return (
         <React.Fragment>
             <Header />
+            <h3>Current Offerings:</h3>
+          
             <CoffeeList />
         </React.Fragment>
     );

@@ -4,8 +4,6 @@ import PropTypes from "prop-types";
 function Coffee(props){
      return (
         <React.Fragment>
-            <h3>Availible Beans:</h3>
-            <hr/>
             <h3>Name: {props.coffeeName}</h3>
             <h3>Roast Level: {props.coffeeRoast}</h3>
             <h3>Flavor Notes: {props.coffeeFlavor}</h3>
