@@ -15,7 +15,9 @@ function CoffeeDetail(props){
             Method: {coffee.coffeeMethod}
             Price: {coffee.coffeePrice}
             Stock: {coffee.qty} lbs</h3>
+            <button onClick={ props.onClickingEdit }>Update Details</button>
             <button onClick={()=> onClickingDelete(coffee.id)}>Remove Coffee</button>
+            
             <button onClick={()=> onClickingRestock(coffee.id)}>Restock Coffee</button>
             <hr/>
         </React.Fragment>
@@ -24,7 +26,9 @@ function CoffeeDetail(props){
 
 CoffeeDetail.propTypes = {
     coffee: PropTypes.object,
-    onClickingDelete: PropTypes.func
+    onClickingEdit: PropTypes.func,
+    onClickingDelete: PropTypes.func,
+    onClickingRestock: PropTypes.func
 };
 
 export default CoffeeDetail;
