@@ -1,61 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T19:23:28.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m5YGWKc5UVaUt7g9IqEl" version="21.7.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-09-08T21:30:35.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QjM51ftctR465NNjBRFD" version="21.7.1" type="device">
   <diagram name="Page-1" id="sNt43C2CeURIw9OieRAq">
     <mxGraphModel dx="1030" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--1" target="Sj3wQn-dgsAGX83FZfN--3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--30" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="5" y="30" width="780" height="475" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--1" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="330" height="60" as="geometry" />
+          <mxGeometry x="30" y="70" width="730" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--2" value="Coffee List&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="90" width="330" height="370" as="geometry" />
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--2" value="Coffee List&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="230" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--3" value="Coffee Type&lt;br&gt;name, origin, price, roast" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--4" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="310" height="60" as="geometry" />
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--3" value="Coffee&lt;br&gt;name, origin, price, roast" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--5" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="220" width="310" height="60" as="geometry" />
+          <mxGeometry x="40" y="210" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--6" value="Add Coffee&lt;br&gt;Clicking this button will show the NewCoffeeForm." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="380" width="310" height="60" as="geometry" />
+          <mxGeometry x="40" y="310" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--7" value="Sale Button&lt;br&gt;(reduces total supply by 1lb)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sj3wQn-dgsAGX83FZfN--8" value="Restock Button&lt;br&gt;(adds 130lbs to supply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--8" target="Sj3wQn-dgsAGX83FZfN--3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="410" as="sourcePoint" />
-            <mxPoint x="450" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="300" y="470" />
-              <mxPoint x="380" y="470" />
-              <mxPoint x="380" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--7">
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--7" target="Sj3wQn-dgsAGX83FZfN--3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="210" as="sourcePoint" />
-            <mxPoint x="300" y="470" as="targetPoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="470" />
+              <mxPoint x="80" y="390" />
+              <mxPoint x="270" y="390" />
+              <mxPoint x="270" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--15" value="NewCoffeeForm&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="90" width="330" height="370" as="geometry" />
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--15" value="NewCoffeeForm" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="230" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="Sj3wQn-dgsAGX83FZfN--16" value="Submit&lt;br&gt;Clicking button will add a new coffee to the list with the default value of 130lbs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="380" width="310" height="60" as="geometry" />
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--16" value="Submit&lt;br&gt;Clicking button will add a new coffee to the list with the default value of 130lbs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--20" value="Coffee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sj3wQn-dgsAGX83FZfN--2" target="Sj3wQn-dgsAGX83FZfN--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Sj3wQn-dgsAGX83FZfN--8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--28" value="NewCoffeeForm" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Sj3wQn-dgsAGX83FZfN--29" value="Update/Delete&lt;br&gt;Clicking update/ delete button with handle form accorindingly" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
