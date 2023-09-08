@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header"; 
-import CoffeeList from "./CoffeeList";
-
+import CoffeeControl from "./CoffeeControl";
 
 function App(){
     
@@ -9,8 +8,7 @@ function App(){
         <React.Fragment>
             <Header />
             <h3>Current Offerings:</h3>
-          
-            <CoffeeList />
+          <CoffeeControl />
         </React.Fragment>
     );
 }
