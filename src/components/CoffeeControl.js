@@ -83,6 +83,24 @@ class CoffeeControl extends React.Component {
                 selectedCoffee: currentCoffee
         });
     }
+
+    handleRestockCoffeeClick = (id) => {
+        const currentCoffee2 = this.state.mainCoffeeList.filter(coffee => coffee.id === id)[0];
+               
+        const coffeeRestock = {
+            ...currentCoffee2, 
+            qty: currentCoffee2.qty + 130, 
+        };
+    
+        const newMainCoffeeList = this.state.mainCoffeeList
+            .filter(coffee => coffee.id !== id)
+            .concat(coffeeRestock);
+          
+        this.setState({
+                mainCoffeeList: newMainCoffeeList,
+                selectedCoffee: currentCoffee2
+        });
+    }
        
  
 
@@ -101,7 +119,8 @@ class CoffeeControl extends React.Component {
             coffee = {this.state.selectedCoffee} 
             onClickingDelete = {this.handleDeletingCoffee}
             onClickingEdit = {this.handleEditClick}
-            onClickingSell = {this.handleSellingCoffeeClick} />
+            onClickingSell = {this.handleSellingCoffeeClick}
+            onClickingRestock={this.handleRestockCoffeeClick} />
             buttonText = "Return to Coffee List";
         }
         else if (this.state.formVisibleOnPage) {
