@@ -4,7 +4,7 @@
 
 ![Alt text](src/img/LanternRouge.gif "Logo")
 
-A webpage application where a user can track the coffee inventory coming in and going out. Each incoming restock of beans is equal to 130lbs while each sale of beans deducts one pound from the stock.
+A webpage application where a user can track the coffee inventory coming in and going out. Each incoming restock of beans is equal to 130 lbs while each sale of beans deducts one pound from the stock.
 
 Link to GH Page:
 
@@ -18,11 +18,11 @@ https://github.com/mcarroll138
 - Javascript
 - HTML
 - CSS
-- npx
+- npx 
 
 ## Complete setup/installation instructions
 
-- Clone this repository from github
+- Clone this repository from GitHub
 - Navigate to the root directory in your terminal and run
 
 ### `npm install`
@@ -101,7 +101,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Known Bugs
 
-- Restock and sell do not update in real time on the page, a refresh will show the updated quantity or going back to the coffee list page will show the correct ammount. Issue with code not rerendering.
+- Restock and sell do not update in real time on the page, a refresh will show the updated quantity or going back to the coffee list page will show the correct amount. Issue with code not re-rendering.
 
 ## License
 
