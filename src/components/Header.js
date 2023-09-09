@@ -18,7 +18,7 @@ function header() {
     <h2 style={containerStyle}>
       <img
         src={image}
-        alt="An image of the company's logo"
+        alt="Lantern Rouge company's logo"
         style={imageStyle}
       />
       <br></br>Inventory Control System

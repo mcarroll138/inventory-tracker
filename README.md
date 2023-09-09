@@ -2,7 +2,7 @@
 
 ### By Michael Carroll
 
-![Alt text](src/img/LanternRouge.png "Logo")
+![Alt text](src/img/LanternRouge.gif "Logo")
 
 A webpage application where a user can track the coffee inventory coming in and going out. Each incoming restock of beans is equal to 130lbs while each sale of beans deducts one pound from the stock.
 
