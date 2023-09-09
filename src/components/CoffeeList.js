@@ -13,10 +13,6 @@ function CoffeeList(props){
             whenCoffeeClicked = { props.onCoffeeSelection }
             coffeeName={coffee.coffeeName}
             coffeeRoast={coffee.coffeeRoast}
-            // coffeeFlavor={coffee.coffeeFlavor}
-            // coffeeFarm={coffee.coffeeFarm}
-            // coffeeOrigin={coffee.coffeeOrigin}
-            // coffeeMethod={coffee.coffeeMethod}
             coffeePrice={coffee.coffeePrice}
             qty={coffee.qty}
             id={coffee.id}

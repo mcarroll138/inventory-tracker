@@ -15,7 +15,7 @@ function EditCoffeeForm (props) {
             coffeeMethod: event.target.coffeeMethod.value,
             coffeePrice: event.target.coffeePrice.value,
             qty: event.target.qty.value,
-            id: event.target.id});
+            id: coffee.id});
     }
     return (
         <React.Fragment>
