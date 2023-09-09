@@ -1,8 +1,31 @@
-# Getting Started with Create React App
+# **Lantern Rouge Coffee Roaster Inventory Tracker**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### By Michael Carroll
 
-## Available Scripts
+![Alt text](src/img/LanternRouge.png "Logo")
+
+A webpage application where a user can track the coffee inventory coming in and going out. Each incoming restock of beans is equal to 130lbs while each sale of beans deducts one pound from the stock.
+
+Link to GH Page:
+
+https://github.com/mcarroll138
+
+## Technologies used
+
+- React.js
+- Create React App
+- Node
+- Javascript
+- HTML
+- CSS
+- npx
+
+## Complete setup/installation instructions
+
+- Clone this repository from github
+- Navigate to the root directory in your terminal and run
+
+### `npm install`
 
 In the project directory, you can run:
 
@@ -68,3 +91,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+- In the root directory, create a file called .env
+- Add .env file to .gitignore
+- commit changes prior to storing any keys
+- Create a free account to access an API token at exchangerate-api.com.
+- Add your token in your .env folder as API_KEY={YOUR API TOKEN}.
+- Run $ npm run start in your root folder
+
+## Known Bugs
+
+- Restock and sell do not update in real time on the page, a refresh will show the updated quantity or going back to the coffee list page will show the correct ammount. Issue with code not rerendering.
+
+## License
+
+MIT
+
+Copyright (c) 2023 Michael Carroll
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
