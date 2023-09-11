@@ -89,7 +89,7 @@ class CoffeeControl extends React.Component {
 
     this.setState({
       mainCoffeeList: newMainCoffeeList,
-      selectedCoffee: currentCoffee,
+      selectedCoffee: coffeeSold,
     });
   };
 
@@ -109,7 +109,7 @@ class CoffeeControl extends React.Component {
 
     this.setState({
       mainCoffeeList: newMainCoffeeList,
-      selectedCoffee: currentCoffee2,
+      selectedCoffee: coffeeRestock,
     });
   };
 
