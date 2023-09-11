@@ -18,7 +18,7 @@ https://github.com/mcarroll138
 - Javascript
 - HTML
 - CSS
-- npx 
+- npx
 
 ## Complete setup/installation instructions
 
@@ -100,8 +100,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Run $ npm run start in your root folder
 
 ## Known Bugs
-
-- Restock and sell do not update in real time on the page, a refresh will show the updated quantity or going back to the coffee list page will show the correct amount. Issue with code not re-rendering.
 
 ## License
 
