@@ -9,18 +9,16 @@ function header() {
   };
 
   const containerStyle = {
+    // position: "sticky",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    backgroundColor: "yellow",
   };
 
   return (
     <h2 style={containerStyle}>
-      <img
-        src={image}
-        alt="Lantern Rouge company's logo"
-        style={imageStyle}
-      />
+      <img src={image} alt="Lantern Rouge company's logo" style={imageStyle} />
       <br></br>Inventory Control System
     </h2>
   );

@@ -19,9 +19,9 @@ function CoffeeDetail(props) {
     backgroundColor: "#f0f0f0",
     borderRadius: "4px",
     backgroundImage: "url('/img/LanternRouge.png')",
-    backgroundSize: "cover", 
-    backgroundPosition: "center", 
-    opacity: "0.9", 
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    opacity: "0.9",
   };
 
   const buttonStyles = {
@@ -42,11 +42,18 @@ function CoffeeDetail(props) {
     marginBottom: "8px",
   };
 
+  const detailButtonRowStyles = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: "8px",
+  };
+
   return (
     <React.Fragment>
       <div style={containerStyles}>
         <div style={detailStyles}>
-          <h1>Coffee Details</h1>
+          <h1>{coffee.coffeeName} Coffee Details</h1>
           <div style={detailRowStyles}>
             <span>Name:</span>
             <span>{coffee.coffeeName}</span>
@@ -81,7 +88,7 @@ function CoffeeDetail(props) {
           </div>
         </div>
       </div>
-      <div style={detailRowStyles}>
+      <div style={detailButtonRowStyles}>
         <button style={buttonStyles} onClick={props.onClickingEdit}>
           Update Details
         </button>

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function CoffeeList(props) {
   const detailStyles = {
-    width: "200px",
+    width: "auto",
     height: "auto",
     margin: "0 auto",
     padding: "10px",
@@ -12,6 +12,7 @@ function CoffeeList(props) {
     borderRadius: "4px",
     backgroundPosition: "center",
     opacity: "0.9",
+    textAlign: "center",
   };
 
   return (

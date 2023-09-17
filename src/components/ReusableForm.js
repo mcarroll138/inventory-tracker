@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+// import Select from "react-select";
 
 function ReusableForm(props) {
   const formStyles = {
@@ -27,29 +28,40 @@ function ReusableForm(props) {
     borderRadius: "4px",
     cursor: "pointer",
   };
+  // const roastLevels = [
+  //   { value: "Light Roast", label: "Light Roast" },
+  //   { value: "Medium Roast", label: "Medium" },
+  // ];
 
   return (
     <React.Fragment>
       <form style={formStyles} onSubmit={props.formSubmissionHandler}>
         <input
+          required
           style={inputStyles}
           type="text"
           name="coffeeName"
           placeholder="Coffee Name"
         />
         <input
+          // option={roastLevels}
+          // defaultValue={roastLevels[0]}
+          // name="label"
+          required
           style={inputStyles}
           type="text"
           name="coffeeRoast"
           placeholder="Roast Level"
         />
         <input
+          required
           style={inputStyles}
           type="text"
           name="coffeeFlavor"
           placeholder="Tasting Notes"
         />
         <input
+          required
           style={inputStyles}
           type="text"
           name="coffeeFarm"
@@ -62,21 +74,24 @@ function ReusableForm(props) {
           placeholder="Origin"
         />
         <input
+          required
           style={inputStyles}
           type="text"
           name="coffeeMethod"
           placeholder="Method"
         />
         <input
+          required
           style={inputStyles}
           type="number"
-          min="0.01"
-          step="0.01"
+          min="5.00"
+          step="0.25"
           max="50.00"
           name="coffeePrice"
           placeholder="Price per pound"
         />
         <input
+          required
           style={inputStyles}
           type="number"
           min="130"

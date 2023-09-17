@@ -117,7 +117,10 @@ class CoffeeControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null;
     const buttonStyles = {
-      marginTop: "16px",
+      marginTop: "0px",
+      display: "block",
+      margin: "auto",
+      marginBottom: "4px",
       padding: "8px 16px",
       backgroundColor: "#007bff",
       color: "#fff",

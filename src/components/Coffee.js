@@ -48,12 +48,8 @@ function Coffee(props) {
 Coffee.propTypes = {
   coffeeName: PropTypes.string.isRequired,
   coffeeRoast: PropTypes.string.isRequired,
-  coffeeFlavor: PropTypes.string.isRequired,
-  coffeeFarm: PropTypes.string.isRequired,
-  coffeeOrigin: PropTypes.string.isRequired,
-  coffeeMethod: PropTypes.string.isRequired,
   coffeePrice: PropTypes.string.isRequired,
-  qty: PropTypes.number.isRequired,
+  qty: PropTypes.string.isRequired,
   id: PropTypes.string,
   whenCoffeeClicked: PropTypes.func,
 };

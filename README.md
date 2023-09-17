@@ -20,6 +20,10 @@ https://github.com/mcarroll138
 - CSS
 - npx
 
+## Component Tree
+
+![Alt text](InventoryTrackerComponentDiagram.png "Componenet Tree")
+
 ## Complete setup/installation instructions
 
 - Clone this repository from GitHub
